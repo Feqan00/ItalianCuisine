@@ -8,6 +8,7 @@ const Header = () => {
         <Stack>
             <Box>
                 <Image src={NavLogo} />
+                sdadas
             </Box>
         </Stack>
     )
