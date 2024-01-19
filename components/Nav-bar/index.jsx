@@ -1,17 +1,19 @@
+
+
 import { Box, Stack } from '@mui/material'
-import NavLogo from '../../app/assets/logo/LogoDelizioso.png'
+import NavLogo from '../../public/assets/logo/LogoDelizioso.png'
 import React from 'react'
 import Image from 'next/image'
 
-const Header = () => {
+const NavBar = () => {
     return (
         <Stack>
             <Box>
-                <Image src={NavLogo} />
-                sdadas
+                <Image priority alt='Logo' src={NavLogo} />
+                Nav
             </Box>
         </Stack>
     )
 }
 
-export default Header
+export default NavBar
